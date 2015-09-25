@@ -14,6 +14,13 @@
 		16890C7A1BB5925900007A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16890C781BB5925900007A88 /* Main.storyboard */; };
 		16890C7C1BB5925900007A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16890C7B1BB5925900007A88 /* Assets.xcassets */; };
 		16890C7F1BB5925900007A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16890C7D1BB5925900007A88 /* LaunchScreen.storyboard */; };
+		16890C8E1BB5933900007A88 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 16890C871BB5933900007A88 /* background.png */; settings = {ASSET_TAGS = (); }; };
+		16890C8F1BB5933900007A88 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16890C881BB5933900007A88 /* background@2x.png */; settings = {ASSET_TAGS = (); }; };
+		16890C901BB5933900007A88 /* explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 16890C891BB5933900007A88 /* explode.sks */; settings = {ASSET_TAGS = (); }; };
+		16890C911BB5933900007A88 /* fuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = 16890C8A1BB5933900007A88 /* fuse.sks */; settings = {ASSET_TAGS = (); }; };
+		16890C921BB5933900007A88 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 16890C8B1BB5933900007A88 /* rocket.png */; settings = {ASSET_TAGS = (); }; };
+		16890C931BB5933900007A88 /* rocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16890C8C1BB5933900007A88 /* rocket@2x.png */; settings = {ASSET_TAGS = (); }; };
+		16890C941BB5933900007A88 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 16890C8D1BB5933900007A88 /* spark.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		16890C7B1BB5925900007A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16890C7E1BB5925900007A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16890C801BB5925900007A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16890C871BB5933900007A88 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		16890C881BB5933900007A88 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		16890C891BB5933900007A88 /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
+		16890C8A1BB5933900007A88 /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
+		16890C8B1BB5933900007A88 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		16890C8C1BB5933900007A88 /* rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket@2x.png"; sourceTree = "<group>"; };
+		16890C8D1BB5933900007A88 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 		16890C6F1BB5925900007A88 /* fireworks-night */ = {
 			isa = PBXGroup;
 			children = (
+				16890C861BB5933900007A88 /* Content */,
 				16890C701BB5925900007A88 /* AppDelegate.swift */,
 				16890C721BB5925900007A88 /* GameScene.sks */,
 				16890C741BB5925900007A88 /* GameScene.swift */,
@@ -68,6 +83,20 @@
 				16890C801BB5925900007A88 /* Info.plist */,
 			);
 			path = "fireworks-night";
+			sourceTree = "<group>";
+		};
+		16890C861BB5933900007A88 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				16890C871BB5933900007A88 /* background.png */,
+				16890C881BB5933900007A88 /* background@2x.png */,
+				16890C891BB5933900007A88 /* explode.sks */,
+				16890C8A1BB5933900007A88 /* fuse.sks */,
+				16890C8B1BB5933900007A88 /* rocket.png */,
+				16890C8C1BB5933900007A88 /* rocket@2x.png */,
+				16890C8D1BB5933900007A88 /* spark.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +156,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16890C941BB5933900007A88 /* spark.png in Resources */,
 				16890C731BB5925900007A88 /* GameScene.sks in Resources */,
+				16890C8E1BB5933900007A88 /* background.png in Resources */,
+				16890C911BB5933900007A88 /* fuse.sks in Resources */,
+				16890C921BB5933900007A88 /* rocket.png in Resources */,
+				16890C901BB5933900007A88 /* explode.sks in Resources */,
 				16890C7F1BB5925900007A88 /* LaunchScreen.storyboard in Resources */,
+				16890C931BB5933900007A88 /* rocket@2x.png in Resources */,
 				16890C7C1BB5925900007A88 /* Assets.xcassets in Resources */,
+				16890C8F1BB5933900007A88 /* background@2x.png in Resources */,
 				16890C7A1BB5925900007A88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +294,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kmobi.fireworks-night";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -269,6 +306,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.kmobi.fireworks-night";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
